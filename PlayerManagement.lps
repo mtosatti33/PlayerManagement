@@ -18,8 +18,10 @@
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmMain"/>
+        <IsVisibleTab Value="True"/>
         <CursorPos X="29" Y="5"/>
         <UsageCount Value="20"/>
         <Loaded Value="True"/>
@@ -29,9 +31,9 @@
         <Filename Value="udm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dm"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UDM"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
         <TopLine Value="43"/>
         <CursorPos X="25" Y="55"/>
@@ -59,7 +61,7 @@
         <Loaded Value="True"/>
       </Unit4>
     </Units>
-    <JumpHistory Count="5" HistoryIndex="4">
+    <JumpHistory Count="4" HistoryIndex="3">
       <Position1>
         <Filename Value="udm.pas"/>
       </Position1>
@@ -72,13 +74,9 @@
         <Caret Line="48" Column="20" TopLine="38"/>
       </Position3>
       <Position4>
-        <Filename Value="udm.pas"/>
-        <Caret Line="8" Column="77" TopLine="32"/>
-      </Position4>
-      <Position5>
         <Filename Value="ufrmmain.pas"/>
         <Caret Line="5" Column="29"/>
-      </Position5>
+      </Position4>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>

@@ -1,33 +1,37 @@
 object frmMain: TfrmMain
-  Left = 257
+  Left = 365
   Height = 460
-  Top = 131
-  Width = 842
+  Top = 162
+  Width = 443
   Caption = 'frmMain'
   ClientHeight = 460
-  ClientWidth = 842
+  ClientWidth = 443
   LCLVersion = '2.0.4.0'
   object DBGrid1: TDBGrid
     Left = 0
     Height = 460
     Top = 0
-    Width = 842
+    Width = 443
     Align = alClient
     Color = clWindow
     Columns = <    
       item
-        Title.Caption = 'No'
+        Title.Caption = '#'
+        Width = 50
         FieldName = 'No'
       end    
       item
         Title.Caption = 'Player'
+        Width = 175
         FieldName = 'Player'
       end    
       item
         Title.Caption = 'Pos'
+        Width = 50
         FieldName = 'Pos'
       end>
     DataSource = DataSource1
+    Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
     TabOrder = 0
   end
   object DataSource1: TDataSource
