@@ -1,0 +1,30 @@
+object dm: Tdm
+  OnCreate = DataModuleCreate
+  OldCreateOrder = False
+  Height = 314
+  HorizontalOffset = 478
+  VerticalOffset = 229
+  Width = 475
+  PPI = 96
+  object conn: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = True
+    Properties.Strings = (
+      'AutoEncodeStrings=True'
+      'controls_cp=CP_UTF8'
+    )
+    Port = 0
+    left = 48
+    top = 32
+  end
+  object ZQuery1: TZQuery
+    Connection = conn
+    SQL.Strings = (
+      'select * from players'
+      'order by No'
+    )
+    Params = <>
+    left = 152
+    top = 32
+  end
+end

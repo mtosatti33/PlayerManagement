@@ -1,0 +1,38 @@
+object frmMain: TfrmMain
+  Left = 257
+  Height = 460
+  Top = 131
+  Width = 842
+  Caption = 'frmMain'
+  ClientHeight = 460
+  ClientWidth = 842
+  LCLVersion = '2.0.4.0'
+  object DBGrid1: TDBGrid
+    Left = 0
+    Height = 460
+    Top = 0
+    Width = 842
+    Align = alClient
+    Color = clWindow
+    Columns = <    
+      item
+        Title.Caption = 'No'
+        FieldName = 'No'
+      end    
+      item
+        Title.Caption = 'Player'
+        FieldName = 'Player'
+      end    
+      item
+        Title.Caption = 'Pos'
+        FieldName = 'Pos'
+      end>
+    DataSource = DataSource1
+    TabOrder = 0
+  end
+  object DataSource1: TDataSource
+    DataSet = dm.ZQuery1
+    left = 219
+    top = 195
+  end
+end
