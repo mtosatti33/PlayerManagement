@@ -1,0 +1,9 @@
+object frmStdForm: TfrmStdForm
+  Left = 281
+  Height = 240
+  Top = 217
+  Width = 320
+  Caption = 'frmStdForm'
+  Color = 13881299
+  LCLVersion = '2.0.12.0'
+end

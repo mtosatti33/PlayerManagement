@@ -26,18 +26,21 @@
       <FormatVersion Value="2"/>
       <Modes Count="0"/>
     </RunParams>
-    <RequiredPackages Count="3">
+    <RequiredPackages Count="4">
       <Item1>
-        <PackageName Value="FCL"/>
+        <PackageName Value="bgracontrols"/>
       </Item1>
       <Item2>
-        <PackageName Value="zcomponent"/>
+        <PackageName Value="FCL"/>
       </Item2>
       <Item3>
-        <PackageName Value="LCL"/>
+        <PackageName Value="zcomponent"/>
       </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
     </RequiredPackages>
-    <Units Count="5">
+    <Units Count="9">
       <Unit0>
         <Filename Value="PlayerManagement.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -68,6 +71,27 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="UDatasetConstants"/>
       </Unit4>
+      <Unit5>
+        <Filename Value="uextendcomponents.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="ufrmroster.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmRoster"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ufrmRoster"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="ufrmstdform.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmStdForm"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ubgrabuttonproperties.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit8>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

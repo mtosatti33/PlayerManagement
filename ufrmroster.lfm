@@ -1,0 +1,19 @@
+object frmRoster: TfrmRoster
+  Left = 430
+  Height = 449
+  Top = 151
+  Width = 639
+  BorderStyle = bsNone
+  Caption = 'frmRoster'
+  ClientHeight = 449
+  ClientWidth = 639
+  LCLVersion = '2.0.12.0'
+  object Label1: TLabel
+    Left = 276
+    Height = 15
+    Top = 210
+    Width = 34
+    Caption = 'Label1'
+    ParentColor = False
+  end
+end
