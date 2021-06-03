@@ -30,7 +30,7 @@ type
     BCButton6: TBCButton;
     btnMinimize: TBCButton;
     images: TImageList;
-    Panel1: TPanel;
+    pnlTop: TPanel;
     pnlParent: TPanel;
     pnlStatus: TPanel;
     pnlMenu: TPanel;
@@ -115,13 +115,14 @@ end;
 
 procedure TfrmMain.FormCreate(Sender: TObject);
 begin
-  Panel1.MoveMousePanel := True;
+  pnlTop.MoveMousePanel := True;
 end;
 
 procedure TfrmMain.FormShow(Sender: TObject);
 begin
   FWidth := pnlMenu.Width;
   Load(pnlMenu);
+  Load(pnlTop);
 end;
 
 end.
