@@ -5,14 +5,20 @@ unit ufrmstdform;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs;
+  Classes, SysUtils, db, Forms, Controls, Graphics, Dialogs, UDM;
 
 type
+
+  { TfrmStdForm }
+
   TfrmStdForm = class(TForm)
+    dsData: TDataSource;
   private
 
   public
 
+  protected
+    Procedure Load; virtual;
   end;
 
 var
@@ -21,6 +27,13 @@ var
 implementation
 
 {$R *.lfm}
+
+{ TfrmStdForm }
+
+procedure TfrmStdForm.Load;
+begin
+
+end;
 
 end.
 

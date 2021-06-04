@@ -17,14 +17,48 @@ object dm: Tdm
     left = 48
     top = 32
   end
-  object ZQuery1: TZQuery
+  object qryRoster: TZQuery
     Connection = conn
     SQL.Strings = (
       'select * from players'
+      'where (''''=:No or No=:No)'
+      'and ('''' like :Player or Player like :Player)'
+      'and (''''=:Pos or Pos=:Pos)'
       'order by No'
     )
-    Params = <>
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'No'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Player'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Pos'
+        ParamType = ptUnknown
+      end>
     left = 152
     top = 32
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'No'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Player'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Pos'
+        ParamType = ptUnknown
+      end>
   end
 end

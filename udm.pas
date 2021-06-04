@@ -14,7 +14,7 @@ type
 
   Tdm = class(TDataModule)
     conn: TZConnection;
-    ZQuery1: TZQuery;
+    qryRoster: TZQuery;
     procedure DataModuleCreate(Sender: TObject);
   private
 
@@ -52,7 +52,6 @@ begin
 
   try
     conn.Connected := True;
-    ZQuery1.Active:=true;
   except
     on E: Exception do
       ShowMessage('A error ocurred: ' + E.Message);
