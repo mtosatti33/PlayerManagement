@@ -1,18 +1,23 @@
 unit ufrmRoster;
 
 {$mode objfpc}{$H+}
-
+//TODO: fazer uma pesquisa melhorada dos campos criando uma unit separada e chamando uma função retornando o nome do jogador e posição
 interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
-  Menus, BCButton, ufrmstdform, UDM, DB;
+  Menus, ActnList, BCButton, ufrmstdform, UDM, DB;
 
 type
 
   { TfrmRoster }
 
   TfrmRoster = class(TfrmStdForm)
+    actEditPlayer: TAction;
+    actReviewContractPlayer: TAction;
+    actPlacePlayer: TAction;
+    actReleasePlayer: TAction;
+    actTradePlayer: TAction;
     BCButton1: TBCButton;
     DBGrid1: TDBGrid;
     edtNo: TEdit;
@@ -28,7 +33,6 @@ type
     MenuItem4: TMenuItem;
     MenuItem5: TMenuItem;
     MenuItem6: TMenuItem;
-    PopupMenu1: TPopupMenu;
     procedure BCButton1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private

@@ -18,7 +18,7 @@ type
     actCallRosterForm: TAction;
     actCallDepthChartForm: TAction;
     actCallInjuriesForm: TAction;
-    actCallTradesForm: TAction;
+    actCallContractsForm: TAction;
     actMinimize: TAction;
     actMenu: TAction;
     actions: TActionList;
@@ -39,7 +39,7 @@ type
     procedure actCallDepthChartFormExecute(Sender: TObject);
     procedure actCallInjuriesFormExecute(Sender: TObject);
     procedure actCallRosterFormExecute(Sender: TObject);
-    procedure actCallTradesFormExecute(Sender: TObject);
+    procedure actCallContractsFormExecute(Sender: TObject);
     procedure actCloseApplicationExecute(Sender: TObject);
     procedure actMenuExecute(Sender: TObject);
     procedure actMinimizeExecute(Sender: TObject);
@@ -77,9 +77,9 @@ begin
   end;
 end;
 
-procedure TfrmMain.actCallTradesFormExecute(Sender: TObject);
+procedure TfrmMain.actCallContractsFormExecute(Sender: TObject);
 begin
-  //TODO: Fazer o form de Trades (se houver)
+  //TODO: Fazer o form de Contratos
   ShowMessage('In Future');
 end;
 

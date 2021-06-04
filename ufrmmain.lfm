@@ -1,7 +1,7 @@
 object frmMain: TfrmMain
-  Left = 212
+  Left = 249
   Height = 591
-  Top = 91
+  Top = 90
   Width = 1082
   BorderStyle = bsNone
   Caption = 'frmMain'
@@ -348,7 +348,7 @@ object frmMain: TfrmMain
     BevelOuter = bvNone
     ClientHeight = 532
     ClientWidth = 170
-    Color = 16109737
+    Color = 1248257
     ParentBidiMode = False
     ParentColor = False
     TabOrder = 1
@@ -359,7 +359,7 @@ object frmMain: TfrmMain
       Width = 170
       Align = alTop
       BevelOuter = bvNone
-      Color = 16109737
+      Color = 1248257
       ParentColor = False
       TabOrder = 0
     end
@@ -469,7 +469,7 @@ object frmMain: TfrmMain
     object BCButton4: TBCButton
       Left = 0
       Height = 32
-      Top = 98
+      Top = 130
       Width = 170
       Action = actCallDepthChartForm
       Align = alTop
@@ -571,9 +571,9 @@ object frmMain: TfrmMain
     object BCButton5: TBCButton
       Left = 0
       Height = 32
-      Top = 162
+      Top = 98
       Width = 170
-      Action = actCallTradesForm
+      Action = actCallContractsForm
       Align = alTop
       StateClicked.Background.Color = 16245964
       StateClicked.Background.Gradient1.StartColor = 16577765
@@ -674,7 +674,7 @@ object frmMain: TfrmMain
     object BCButton6: TBCButton
       Left = 0
       Height = 32
-      Top = 130
+      Top = 162
       Width = 170
       Action = actCallInjuriesForm
       Align = alTop
@@ -781,7 +781,7 @@ object frmMain: TfrmMain
     Width = 33
     Align = alLeft
     BevelOuter = bvNone
-    Color = 16109737
+    Color = 1248257
     ParentColor = False
     TabOrder = 2
   end
@@ -803,7 +803,7 @@ object frmMain: TfrmMain
     Width = 879
     Align = alClient
     BevelOuter = bvNone
-    Color = 13881299
+    Color = clWhite
     ParentColor = False
     TabOrder = 4
   end
@@ -956,14 +956,14 @@ object frmMain: TfrmMain
       ImageIndex = 1
       OnExecute = actMenuExecute
     end
-    object actCallRosterForm: TAction
-      Caption = 'Roster'
-      OnExecute = actCallRosterFormExecute
-    end
     object actMinimize: TAction
       Hint = 'Minimize'
       ImageIndex = 3
       OnExecute = actMinimizeExecute
+    end
+    object actCallRosterForm: TAction
+      Caption = 'Roster'
+      OnExecute = actCallRosterFormExecute
     end
     object actCallDepthChartForm: TAction
       Caption = 'Depth Chart'
@@ -973,9 +973,9 @@ object frmMain: TfrmMain
       Caption = 'Injuries'
       OnExecute = actCallInjuriesFormExecute
     end
-    object actCallTradesForm: TAction
-      Caption = 'Trades'
-      OnExecute = actCallTradesFormExecute
+    object actCallContractsForm: TAction
+      Caption = 'Contracts'
+      OnExecute = actCallContractsFormExecute
     end
   end
 end

@@ -1,13 +1,25 @@
 object frmStdForm: TfrmStdForm
   Left = 289
-  Height = 240
+  Height = 337
   Top = 230
-  Width = 320
+  Width = 566
   Caption = 'frmStdForm'
-  Color = 13881299
+  Color = clWhite
   LCLVersion = '2.0.4.0'
   object dsData: TDataSource
     left = 16
     top = 8
+  end
+  object options: TPopupMenu
+    left = 424
+    top = 296
+  end
+  object actions: TActionList
+    left = 472
+    top = 296
+  end
+  object images: TImageList
+    left = 528
+    top = 297
   end
 end

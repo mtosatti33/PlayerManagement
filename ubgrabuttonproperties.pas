@@ -12,14 +12,16 @@ unit ubgrabuttonproperties;
 interface
 
 uses
-  Classes, SysUtils, BCButton, BCTypes, ExtCtrls, Dialogs, Forms;
+  Classes, SysUtils, BCButton, BCTypes, ExtCtrls, Dialogs, Forms, Graphics;
 
 const
   MAX_PADDING_SIZE = 10;
   BORDER_WIDTH = 0;
   TEXT_ALIGNMENT_TYPE = bcaLeftCenter;
   FONT_NAME = 'calibri';
-  BACK_COLOR = $F5D0A9;
+  FORE_COLOR = clWhite;
+  BACK_COLOR = $130C01;
+  BACK_HOVER_COLOR = $675C55;
   BAR_BACK_COLOR = $8A4B08;  
   BAR_HOVER_BACK_COLOR = $C54B00;
 
@@ -54,8 +56,16 @@ begin
           StateHover.FontEx.PaddingLeft := MAX_PADDING_SIZE;
           StateClicked.FontEx.PaddingLeft := MAX_PADDING_SIZE;
 
-          //StateNormal Color
+          //Back Color
           StateNormal.Background.Color := BACK_COLOR;
+          StateHover.Background.Color := BACK_HOVER_COLOR;
+          StateClicked.Background.Color := BACK_HOVER_COLOR;
+
+          //Fore Color
+          StateNormal.FontEx.Color := FORE_COLOR;
+          StateHover.FontEx.Color := FORE_COLOR;
+          StateClicked.FontEx.Color := FORE_COLOR;
+
 
           //Font
           StateNormal.FontEx.Name := FONT_NAME;

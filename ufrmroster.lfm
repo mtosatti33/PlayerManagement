@@ -45,7 +45,7 @@ inherited frmRoster: TfrmRoster
       DataSource = dsData
       Flat = True
       Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgRowLines, dgTabs, dgRowSelect, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit]
-      PopupMenu = PopupMenu1
+      PopupMenu = options
       TabOrder = 0
     end
     object Label1: TLabel
@@ -199,28 +199,48 @@ inherited frmRoster: TfrmRoster
   end
   inherited dsData: TDataSource[1]
     DataSet = dm.qryRoster
-    top = 312
+    left = 48
+    top = 424
   end
-  object PopupMenu1: TPopupMenu[2]
-    left = 88
-    top = 328
-    object MenuItem6: TMenuItem
-      Caption = 'Edit Player'
+  inherited options: TPopupMenu[2]
+    left = 128
+    top = 424
+    object MenuItem1: TMenuItem[0]
+      Action = actEditPlayer
     end
-    object MenuItem5: TMenuItem
+    object MenuItem3: TMenuItem[1]
       Caption = '-'
     end
-    object MenuItem1: TMenuItem
+    object MenuItem2: TMenuItem[2]
+      Action = actTradePlayer
+    end
+    object MenuItem4: TMenuItem[3]
+      Action = actReleasePlayer
+    end
+    object MenuItem5: TMenuItem[4]
+      Action = actPlacePlayer
+    end
+    object MenuItem6: TMenuItem[5]
+      Action = actReviewContractPlayer
+    end
+  end
+  inherited actions: TActionList[3]
+    object actEditPlayer: TAction[0]
+      Caption = 'Edit'
+    end
+    object actTradePlayer: TAction[1]
       Caption = 'Trade'
     end
-    object MenuItem2: TMenuItem
+    object actReleasePlayer: TAction[2]
       Caption = 'Release'
     end
-    object MenuItem3: TMenuItem
-      Caption = 'Cut'
+    object actPlacePlayer: TAction[3]
+      Caption = 'Place on'
     end
-    object MenuItem4: TMenuItem
+    object actReviewContractPlayer: TAction[4]
       Caption = 'Review Contract'
     end
+  end
+  inherited images: TImageList[4]
   end
 end

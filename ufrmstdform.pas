@@ -5,14 +5,18 @@ unit ufrmstdform;
 interface
 
 uses
-  Classes, SysUtils, db, Forms, Controls, Graphics, Dialogs, UDM;
+  Classes, SysUtils, db, Forms, Controls, Graphics, Dialogs, Menus, ActnList,
+  UDM;
 
 type
 
   { TfrmStdForm }
 
   TfrmStdForm = class(TForm)
+    actions: TActionList;
     dsData: TDataSource;
+    images: TImageList;
+    options: TPopupMenu;
   private
 
   public

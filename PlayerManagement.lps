@@ -4,14 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Release"/>
-    <Units Count="13">
+    <Units Count="15">
       <Unit0>
         <Filename Value="PlayerManagement.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="5"/>
         <CursorPos X="21" Y="20"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="33"/>
       </Unit0>
       <Unit1>
         <Filename Value="ufrmmain.pas"/>
@@ -20,9 +20,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmMain"/>
-        <TopLine Value="108"/>
-        <CursorPos X="16" Y="125"/>
-        <UsageCount Value="31"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="66"/>
+        <CursorPos Y="82"/>
+        <UsageCount Value="33"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
@@ -33,12 +35,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UDM"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="15"/>
         <CursorPos X="3" Y="26"/>
-        <UsageCount Value="31"/>
-        <Loaded Value="True"/>
-        <LoadedDesigner Value="True"/>
+        <UsageCount Value="33"/>
       </Unit2>
       <Unit3>
         <Filename Value="uconfiguration.pas"/>
@@ -46,7 +46,7 @@
         <UnitName Value="UConfiguration"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="74" Y="41"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="33"/>
       </Unit3>
       <Unit4>
         <Filename Value="udatasetconstants.pas"/>
@@ -54,14 +54,14 @@
         <UnitName Value="UDatasetConstants"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="39" Y="10"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="33"/>
       </Unit4>
       <Unit5>
         <Filename Value="uextendcomponents.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="14"/>
-        <UsageCount Value="30"/>
+        <UsageCount Value="32"/>
       </Unit5>
       <Unit6>
         <Filename Value="ufrmroster.pas"/>
@@ -70,10 +70,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmRoster"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <CursorPos X="18" Y="9"/>
-        <UsageCount Value="29"/>
+        <EditorIndex Value="3"/>
+        <CursorPos X="135" Y="4"/>
+        <UsageCount Value="31"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit6>
@@ -83,10 +82,9 @@
         <ComponentName Value="frmStdForm"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="20"/>
-        <CursorPos X="3" Y="35"/>
-        <UsageCount Value="28"/>
+        <TopLine Value="24"/>
+        <CursorPos X="3" Y="39"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit7>
@@ -94,8 +92,9 @@
         <Filename Value="ubgrabuttonproperties.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="38" Y="22"/>
-        <UsageCount Value="28"/>
+        <TopLine Value="51"/>
+        <CursorPos X="50" Y="67"/>
+        <UsageCount Value="30"/>
         <Loaded Value="True"/>
       </Unit8>
       <Unit9>
@@ -130,128 +129,56 @@
         <UsageCount Value="10"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit12>
+      <Unit13>
+        <Filename Value="C:\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="782"/>
+        <CursorPos X="14" Y="790"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="C:\lazarus\lcl\graphics.pp"/>
+        <UnitName Value="Graphics"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="246"/>
+        <CursorPos X="3" Y="256"/>
+        <UsageCount Value="10"/>
+      </Unit14>
     </Units>
-    <JumpHistory Count="30" HistoryIndex="29">
+    <JumpHistory Count="8" HistoryIndex="7">
       <Position1>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="90" Column="69" TopLine="82"/>
+        <Filename Value="ufrmstdform.pas"/>
+        <Caret Line="35" Column="3" TopLine="16"/>
       </Position1>
       <Position2>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="98" Column="11" TopLine="82"/>
+        <Filename Value="ufrmstdform.pas"/>
+        <Caret Line="36" Column="3" TopLine="17"/>
       </Position2>
       <Position3>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="101" Column="53" TopLine="88"/>
+        <Filename Value="ufrmstdform.pas"/>
+        <Caret Line="38" Column="3" TopLine="19"/>
       </Position3>
       <Position4>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="102" Column="53" TopLine="89"/>
+        <Filename Value="ufrmroster.pas"/>
+        <Caret Line="9" Column="28" TopLine="9"/>
       </Position4>
       <Position5>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="103" Column="50" TopLine="93"/>
+        <Caret Line="125" Column="16" TopLine="108"/>
       </Position5>
       <Position6>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="93" TopLine="87"/>
+        <Caret Line="77" Column="30" TopLine="60"/>
       </Position6>
       <Position7>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="92" TopLine="86"/>
+        <Filename Value="ubgrabuttonproperties.pas"/>
+        <Caret Line="15" Column="75" TopLine="11"/>
       </Position7>
       <Position8>
         <Filename Value="ufrmmain.pas"/>
-        <Caret Line="91" TopLine="85"/>
+        <Caret Line="76" Column="31" TopLine="60"/>
       </Position8>
-      <Position9>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="44" Column="67" TopLine="28"/>
-      </Position9>
-      <Position10>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="20" Column="3" TopLine="10"/>
-      </Position10>
-      <Position11>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="35" TopLine="30"/>
-      </Position11>
-      <Position12>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="85" Column="64" TopLine="73"/>
-      </Position12>
-      <Position13>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="22" Column="3" TopLine="12"/>
-      </Position13>
-      <Position14>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="23" Column="3" TopLine="12"/>
-      </Position14>
-      <Position15>
-        <Filename Value="ubgrabuttonproperties.pas"/>
-        <Caret Line="19" Column="3" TopLine="12"/>
-      </Position15>
-      <Position16>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="14" Column="33"/>
-      </Position16>
-      <Position17>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="15" Column="33"/>
-      </Position17>
-      <Position18>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="12" Column="48"/>
-      </Position18>
-      <Position19>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="51" Column="8" TopLine="34"/>
-      </Position19>
-      <Position20>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="49" Column="8" TopLine="37"/>
-      </Position20>
-      <Position21>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="53" Column="68" TopLine="37"/>
-      </Position21>
-      <Position22>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="52" Column="68" TopLine="36"/>
-      </Position22>
-      <Position23>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="53" Column="68" TopLine="37"/>
-      </Position23>
-      <Position24>
-        <Filename Value="ufrmstdform.pas"/>
-        <Caret Line="21" Column="29" TopLine="11"/>
-      </Position24>
-      <Position25>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="34" Column="30" TopLine="23"/>
-      </Position25>
-      <Position26>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="63" Column="18" TopLine="44"/>
-      </Position26>
-      <Position27>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="58" Column="3" TopLine="44"/>
-      </Position27>
-      <Position28>
-        <Filename Value="ufrmstdform.pas"/>
-        <Caret Line="35" Column="3" TopLine="20"/>
-      </Position28>
-      <Position29>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="68" Column="20" TopLine="49"/>
-      </Position29>
-      <Position30>
-        <Filename Value="ufrmroster.pas"/>
-        <Caret Line="36" Column="11" TopLine="23"/>
-      </Position30>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
