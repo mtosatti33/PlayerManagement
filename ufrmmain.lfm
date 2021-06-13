@@ -128,7 +128,7 @@ object frmMain: TfrmMain
       ImageIndex = 0
       MemoryUsage = bmuHigh
     end
-    object BCButton2: TBCButton
+    object btnMenu: TBCButton
       Left = 0
       Height = 34
       Top = 0

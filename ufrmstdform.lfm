@@ -1,6 +1,6 @@
 object frmStdForm: TfrmStdForm
   Left = 289
-  Height = 337
+  Height = 369
   Top = 230
   Width = 566
   Caption = 'frmStdForm'
@@ -11,15 +11,19 @@ object frmStdForm: TfrmStdForm
     top = 8
   end
   object options: TPopupMenu
-    left = 424
-    top = 296
+    left = 528
+    top = 128
   end
   object actions: TActionList
-    left = 472
-    top = 296
+    left = 528
+    top = 16
+    object actClear: TAction
+      Caption = 'Clear'
+      OnExecute = actClearExecute
+    end
   end
   object images: TImageList
     left = 528
-    top = 297
+    top = 72
   end
 end

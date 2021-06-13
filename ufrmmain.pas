@@ -23,7 +23,7 @@ type
     actMenu: TAction;
     actions: TActionList;
     btnClose: TBCButton;
-    BCButton2: TBCButton;
+    btnMenu: TBCButton;
     BCButton3: TBCButton;
     BCButton4: TBCButton;
     BCButton5: TBCButton;

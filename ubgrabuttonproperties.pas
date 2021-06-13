@@ -14,6 +14,7 @@ interface
 uses
   Classes, SysUtils, BCButton, BCTypes, ExtCtrls, Dialogs, Forms, Graphics;
 
+//Constantes do Button
 const
   MAX_PADDING_SIZE = 10;
   BORDER_WIDTH = 0;
@@ -22,8 +23,9 @@ const
   FORE_COLOR = clWhite;
   BACK_COLOR = $130C01;
   BACK_HOVER_COLOR = $675C55;
-  BAR_BACK_COLOR = $8A4B08;  
+  BAR_BACK_COLOR = $8A4B08;
   BAR_HOVER_BACK_COLOR = $C54B00;
+  BAR_CLOSE_HOVER_BACK_COLOR = $1B1BE4;
 
 
 
@@ -104,6 +106,17 @@ begin
           StateNormal.Border.Width := BORDER_WIDTH;
           StateHover.Border.Width := BORDER_WIDTH;
           StateHover.Border.Width := BORDER_WIDTH;
+        end;
+
+        //btnClose
+        if TBCButton(panel.Controls[i]).Name = 'btnClose' then
+        begin
+          with TBCButton(panel.Controls[i]) do
+          begin
+            StateHover.Background.Color := BAR_CLOSE_HOVER_BACK_COLOR;
+            StateClicked.Background.Color := BAR_CLOSE_HOVER_BACK_COLOR;
+          end;
+
         end;
       end;
     end;
