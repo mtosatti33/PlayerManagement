@@ -5,8 +5,8 @@ unit UDM;
 interface
 
 uses
-  Classes, SysUtils, ZConnection, ZDataset, UConfiguration, UDatasetConstants,
-  Dialogs;
+  Classes, SysUtils, ZConnection, ZDataset, ZSqlUpdate, UConfiguration,
+  UDatasetConstants, Dialogs;
 
 type
 
@@ -15,6 +15,7 @@ type
   Tdm = class(TDataModule)
     conn: TZConnection;
     qryRoster: TZQuery;
+    qryRosterUpdate: TZQuery;
     procedure DataModuleCreate(Sender: TObject);
   private
 

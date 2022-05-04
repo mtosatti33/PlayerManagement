@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, DBGrids,
-  Menus, ActnList, ExtCtrls, BCButton, ufrmstdform, UDM, DB;
+  Menus, ActnList, ExtCtrls, BCButton, ufrmstdform, UDM, ufrmplayeredit, DB;
 
 type
 
@@ -36,6 +36,7 @@ type
     MenuItem6: TMenuItem;
     Splitter1: TSplitter;
     procedure actClearExecute(Sender: TObject);
+    procedure actEditPlayerExecute(Sender: TObject);
     procedure BCButton1Click(Sender: TObject);
     procedure FormShow(Sender: TObject);
   private
@@ -63,6 +64,17 @@ procedure TfrmRoster.actClearExecute(Sender: TObject);
 begin
   inherited;
   BCButton1Click(nil);
+end;
+
+procedure TfrmRoster.actEditPlayerExecute(Sender: TObject);
+begin
+  frmPlayerEdit:=TfrmPlayerEdit.create(Application);
+
+  try
+    frmPlayerEdit.ShowModal;
+  finally
+    frmPlayerEdit.Free;
+  end;
 end;
 
 procedure TfrmRoster.FormShow(Sender: TObject);

@@ -5,7 +5,6 @@ object dm: Tdm
   HorizontalOffset = 478
   VerticalOffset = 229
   Width = 475
-  PPI = 96
   object conn: TZConnection
     ControlsCodePage = cCP_UTF8
     AutoEncodeStrings = True
@@ -14,8 +13,8 @@ object dm: Tdm
       'controls_cp=CP_UTF8'
     )
     Port = 0
-    left = 48
-    top = 32
+    Left = 48
+    Top = 32
   end
   object qryRoster: TZQuery
     Connection = conn
@@ -42,8 +41,8 @@ object dm: Tdm
         Name = 'Pos'
         ParamType = ptUnknown
       end>
-    left = 152
-    top = 32
+    Left = 120
+    Top = 32
     ParamData = <    
       item
         DataType = ftUnknown
@@ -58,6 +57,174 @@ object dm: Tdm
       item
         DataType = ftUnknown
         Name = 'Pos'
+        ParamType = ptUnknown
+      end>
+  end
+  object qryRosterUpdate: TZQuery
+    Connection = conn
+    SQL.Strings = (
+      'insert or replace into players('
+      '  no,'
+      '  player,'
+      '  age,'
+      '  pos,'
+      '  G,'
+      '  gs,'
+      '  wt,'
+      '  ht,'
+      '  college,'
+      '  Birthdate,'
+      '  yrs,'
+      '  av,'
+      '  Drafted'
+      ')values('
+      '  :no,'
+      '  :player,'
+      '  :age,'
+      '  :pos,'
+      '  :G,'
+      '  :gs,'
+      '  :wt,'
+      '  :ht,'
+      '  :college,'
+      '  :Birthdate,'
+      '  :yrs,'
+      '  :av,'
+      '  :Drafted'
+      '  )'
+    )
+    Params = <    
+      item
+        DataType = ftUnknown
+        Name = 'No'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Player'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'age'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Pos'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'G'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'gs'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'wt'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'ht'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'college'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Birthdate'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'yrs'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'av'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Drafted'
+        ParamType = ptUnknown
+      end>
+    Left = 120
+    Top = 96
+    ParamData = <    
+      item
+        DataType = ftUnknown
+        Name = 'No'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Player'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'age'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Pos'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'G'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'gs'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'wt'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'ht'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'college'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Birthdate'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'yrs'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'av'
+        ParamType = ptUnknown
+      end    
+      item
+        DataType = ftUnknown
+        Name = 'Drafted'
         ParamType = ptUnknown
       end>
   end

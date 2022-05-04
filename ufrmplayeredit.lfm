@@ -1,0 +1,5 @@
+inherited frmPlayerEdit: TfrmPlayerEdit
+  Left = 440
+  Top = 177
+  Caption = 'Player Edit'
+end

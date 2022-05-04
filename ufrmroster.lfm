@@ -157,7 +157,6 @@ inherited frmRoster: TfrmRoster
       DropDownWidth = 16
       DropDownArrowSize = 8
       GlobalOpacity = 255
-      InnerMargin = 0
       OnClick = BCButton1Click
       ParentColor = False
       Rounding.RoundX = 0
@@ -259,7 +258,6 @@ inherited frmRoster: TfrmRoster
       DropDownWidth = 16
       DropDownArrowSize = 8
       GlobalOpacity = 255
-      InnerMargin = 0
       ParentColor = False
       Rounding.RoundX = 0
       Rounding.RoundY = 0
@@ -310,12 +308,12 @@ inherited frmRoster: TfrmRoster
   end
   inherited dsData: TDataSource[3]
     DataSet = dm.qryRoster
-    left = 48
-    top = 424
+    Left = 48
+    Top = 424
   end
   inherited options: TPopupMenu[4]
-    left = 128
-    top = 424
+    Left = 128
+    Top = 424
     object MenuItem1: TMenuItem[0]
       Action = actEditPlayer
     end
@@ -336,9 +334,10 @@ inherited frmRoster: TfrmRoster
     end
   end
   inherited actions: TActionList[5]
-    left = 680
+    Left = 680
     object actEditPlayer: TAction[0]
       Caption = 'Edit'
+      OnExecute = actEditPlayerExecute
     end
     object actTradePlayer: TAction[1]
       Caption = 'Trade'

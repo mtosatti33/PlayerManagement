@@ -4,14 +4,14 @@
     <PathDelim Value="\"/>
     <Version Value="11"/>
     <BuildModes Active="Release"/>
-    <Units Count="17">
+    <Units Count="18">
       <Unit0>
         <Filename Value="PlayerManagement.lpr"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="5"/>
         <CursorPos X="21" Y="20"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="35"/>
       </Unit0>
       <Unit1>
         <Filename Value="ufrmmain.pas"/>
@@ -20,10 +20,11 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="UFrmMain"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="21"/>
-        <CursorPos Y="82"/>
-        <UsageCount Value="34"/>
+        <TopLine Value="9"/>
+        <CursorPos X="54" Y="29"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="udm.pas"/>
@@ -32,10 +33,13 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
         <UnitName Value="UDM"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="15"/>
-        <CursorPos X="3" Y="26"/>
-        <UsageCount Value="34"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="23"/>
+        <CursorPos X="16" Y="23"/>
+        <UsageCount Value="35"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="uconfiguration.pas"/>
@@ -43,7 +47,7 @@
         <UnitName Value="UConfiguration"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="74" Y="41"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="35"/>
       </Unit3>
       <Unit4>
         <Filename Value="udatasetconstants.pas"/>
@@ -51,14 +55,14 @@
         <UnitName Value="UDatasetConstants"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="39" Y="10"/>
-        <UsageCount Value="34"/>
+        <UsageCount Value="35"/>
       </Unit4>
       <Unit5>
         <Filename Value="uextendcomponents.pas"/>
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="36" Y="14"/>
-        <UsageCount Value="33"/>
+        <UsageCount Value="34"/>
       </Unit5>
       <Unit6>
         <Filename Value="ufrmroster.pas"/>
@@ -67,11 +71,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="ufrmRoster"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="55"/>
-        <CursorPos X="7" Y="64"/>
-        <UsageCount Value="32"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="69"/>
+        <CursorPos X="30" Y="78"/>
+        <UsageCount Value="33"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
       </Unit6>
       <Unit7>
         <Filename Value="ufrmstdform.pas"/>
@@ -82,7 +87,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="39"/>
         <CursorPos X="18" Y="47"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="32"/>
       </Unit7>
       <Unit8>
         <Filename Value="ubgrabuttonproperties.pas"/>
@@ -90,7 +95,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="103"/>
         <CursorPos X="66" Y="108"/>
-        <UsageCount Value="31"/>
+        <UsageCount Value="32"/>
       </Unit8>
       <Unit9>
         <Filename Value="D:\AppData\Local\lazarus\onlinepackagemanager\packages\bgracontrols-master\bctypes.pas"/>
@@ -116,7 +121,7 @@
         <UsageCount Value="10"/>
       </Unit11>
       <Unit12>
-        <Filename Value="C:\Users\Marcelo\AppData\Local\lazarus\onlinepackagemanager\packages\bgracontrols-master\bctypes.pas"/>
+        <Filename Value="..\..\..\AppData\Local\lazarus\onlinepackagemanager\packages\bgracontrols-master\bctypes.pas"/>
         <UnitName Value="BCTypes"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="94"/>
@@ -155,11 +160,36 @@
         <CursorPos X="3" Y="109"/>
         <UsageCount Value="10"/>
       </Unit16>
+      <Unit17>
+        <Filename Value="ufrmplayeredit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmPlayerEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit17>
     </Units>
-    <General>
-      <ActiveWindowIndexAtStart Value="-1"/>
-    </General>
-    <JumpHistory HistoryIndex="-1"/>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="ufrmroster.pas"/>
+        <Caret Line="21" Column="35" TopLine="7"/>
+      </Position1>
+      <Position2>
+        <Filename Value="udm.pas"/>
+        <Caret Line="26" Column="3" TopLine="15"/>
+      </Position2>
+      <Position3>
+        <Filename Value="udm.pas"/>
+        <Caret Line="23" Column="16" TopLine="40"/>
+      </Position3>
+      <Position4>
+        <Filename Value="udm.pas"/>
+        <Caret Line="22" Column="16" TopLine="22"/>
+      </Position4>
+    </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes Count="0" ActiveMode=""/>
